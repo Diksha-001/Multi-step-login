@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-image img{
+    height: 700px;
+    width:  500px;
+    display: block;
+}
+.hero{
+    display: flex;
+    gap:  50px;
+}
+.utext {
+    margin-left: 50px;
+}
+
+.profile-info{
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    font-weight:600;
+    font-size: 18px;
+    width: 450px;
+
+}
+
+.heading{
+    /* color: blue; */
+    margin-bottom: 30px;
+    font-size: 20px
+}
+
+.name{
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight:600;
+    gap: 50px;
+    /* width: 240px; */
+
+}
+.name input{
+    width: 180px;
+}
+.email{
+    margin-bottom: 30px;
+    width: 425px;
+}
+.password{
+    margin-bottom: 20px;
+    width: 425px;
+
+}
+input{
+    height: 28px;
+    margin-top: 10px;
+    padding: 6px;
+    
+}
+input[type=checkbox] {
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 40px;
+    height:40px;
+    color: rgba(174, 174, 174, 0.714);
+    }
+
+.check{
+    margin-bottom: 25px;
+    display: flex;
+    gap: 18px;
+    color: gray;
+    font-size: 17px;
+    font-weight:400;
+}
+.check span{
+    color: rgb(88, 123, 203);
+}
+.check-text{
+    margin-top: 7px;
+}
+
+.btn{
+    width: 45%;
+    height: 48px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight:600;
+    border-radius: 10px;
+    background-color: rgb(201, 27, 120);
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.ltext{
+    margin-bottom: 25px;
+    color: gray;
+    font-size: 15px;
+    font-weight:400;
+
+}
+.ltext span{
+    color: rgb(88, 123, 203);
+    
+}
+span {
+    color: rgb(88, 123, 203);
+    
+}
+.utext {
+    /* color: rgb(88, 123, 203); */
+    font-size: 16px;
+    text-align: center;
+}
+
+/* profile page */
+.logo{
+    margin: 20px 0 0 20px;
+}
+
+.profile{
+    display: flex;
+    gap: 400px; 
+}
+.profile h3{
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.profile-text{
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+}
+.profile-heading{
+    margin-bottom: 18px;
+}
+
+.profile-subheading{
+    margin-bottom: 39px;
+    color: gray;
+}
+.avatar{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+.choose{
+    color: gray;
+}
+.choose input{
+    height: 208px;
+}
+
+.location{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.profile hr{
+    margin-bottom: 40px;
+
+}
+ input[type=file]
+ {
+    height: 40px;
+    font-size: 15px;
+    font-weight: 100;
+ }
+
+.profile input{
+    border: none;
+    
+}
+
+
+/* service page */
+.service{
+    display: flex;
+    gap: 200px;
+}
+
+.service-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.service-info p{
+    margin-top: 10px;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.service-section{
+    display: flex;
+    gap: 25px;
+}
+
+.service1 {
+    width: 310px;
+    height: 260px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 15px;
+}
+
+ .service2{
+    width: 300px;
+    height: 260px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 15px;
+}
+.service3{
+    width: 300px;
+    height: 260px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 15px;
+}
+
+.lower{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 40px 0 30px 0px;
+}
+
+.service-info button{
+    width: 200px;
+
+}
+
+/* email page */
+.verify p{
+    color: gray;
+}
+.verify span{
+    color: rgb(201, 27, 120);
+    font-weight: 600;
+}
+.verify{
+    display: flex;
+    gap: 250px; 
+    
+}
+
+.verify-text{
+    align-items: center;
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+}
+.verify,h1, h3, p{
+    margin-bottom: 15px;
+}
